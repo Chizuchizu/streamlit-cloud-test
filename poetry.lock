@@ -18,6 +18,20 @@ toolz = "*"
 dev = ["black", "docutils", "ipython", "flake8", "pytest", "sphinx", "mistune (<2.0.0)", "m2r", "vega-datasets", "recommonmark"]
 
 [[package]]
+name = "amplify"
+version = "0.6.5"
+description = "Amplify SDK for Quantum Annealing and Ising Machines"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+numpy = "*"
+
+[package.extras]
+extra = ["dwave-system (>=1.3.0)", "minorminer (>=0.2.5)"]
+
+[[package]]
 name = "appnope"
 version = "0.1.2"
 description = "Disable App Nap on macOS >= 10.9"
@@ -1166,12 +1180,24 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "2d78152af2fc23b72f1db1fe0dd09033f2fadd6a07e47d0ed4608cffedfc17bb"
+content-hash = "63651cf3e003b855d566cc205f6a9819cf19713955ad378da568b40924a3e5ff"
 
 [metadata.files]
 altair = [
     {file = "altair-4.2.0-py3-none-any.whl", hash = "sha256:0c724848ae53410c13fa28be2b3b9a9dcb7b5caa1a70f7f217bd663bb419935a"},
     {file = "altair-4.2.0.tar.gz", hash = "sha256:d87d9372e63b48cd96b2a6415f0cf9457f50162ab79dc7a31cd7e024dd840026"},
+]
+amplify = [
+    {file = "amplify-0.6.5-cp36-cp36m-macosx_10_15_x86_64.whl", hash = "sha256:4acdc793728ebb401df634081c8fcd45fa20e53d3f3dac393aaa6daed7f8f9d7"},
+    {file = "amplify-0.6.5-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e45929210f6d78479b4797955099e0832b0bbe226fa7354b041f177fa1ac007b"},
+    {file = "amplify-0.6.5-cp37-cp37m-macosx_10_15_x86_64.whl", hash = "sha256:84c829e20f6d15c0a0d1055c226ffe994278de5c8c2d627c10e5d2f59bfd420f"},
+    {file = "amplify-0.6.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9dfb437cf059de4ddd7ca190c02dca66ca20f62eae07bfbb42de711ddfe3429d"},
+    {file = "amplify-0.6.5-cp38-cp38-macosx_10_15_x86_64.whl", hash = "sha256:2a8b14a7c29f2b36f9dc60a3a9a9f6e65ab63c6b8d6c2a2a34c07677a32e20c8"},
+    {file = "amplify-0.6.5-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:de9958f1a3dcf6c18cb3ebdecdafeff3666701bfa43299d7d566c9a467b4e636"},
+    {file = "amplify-0.6.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:85f44202a3c11991b6deb9c6ffdc60cc63e7a27574cfad0e8b3a8a7b964d6eda"},
+    {file = "amplify-0.6.5-cp39-cp39-macosx_10_15_x86_64.whl", hash = "sha256:9807ed6f14649a05e78c9f350a99c971561382850d513ebc9da0b61974f69ccb"},
+    {file = "amplify-0.6.5-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:6d71ef27617e683580c77f5955580fc442d3a412b210de1b3d65915ed66e29ce"},
+    {file = "amplify-0.6.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:123c39bd78a405e96fa7c8561aa3f8bf0ccf9e03de2822aa87c2513d7e3a02e3"},
 ]
 appnope = [
     {file = "appnope-0.1.2-py2.py3-none-any.whl", hash = "sha256:93aa393e9d6c54c5cd570ccadd8edad61ea0c4b9ea7a01409020c9aa019eb442"},
