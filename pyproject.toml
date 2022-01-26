@@ -8,6 +8,7 @@ authors = ["Ochi Yuma <ochiyuma.ochi@gmail.com>"]
 python = "^3.9"
 streamlit = "^1.4.0"
 amplify = "^0.6.5"
+joblib = "^1.1.0"
 
 [tool.poetry.dev-dependencies]
 
